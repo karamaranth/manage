@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="bm.jpeg">
+    <title>管理系統</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="index.html" class="logo"><img src="logo1-03.png" class="logo" width="500px"></a>
+            <ul>
+                <li><a href="">首頁</a></li>
+                <li><a href="">其他系統</a></li>
+                <li><a href="">附加功能</a></li>
+                <li><a href="">聯絡我們</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="textBox">
+                <h2>Hi <span> 黃建勛</span></h2>    
+                <p id="parti">歡迎來到 人員管理系統</p>
+                <a href="#" id="service">選擇服務</a>
+            </div>
+            <div class="imgBox">
+                <img src="img1.png" class="big_photo" style="display: none;">
+            </div>
+        </div>
+        
+        <ul class="thumb">
+            <li><a href="page1.html"><img src="thumb1.png" class="thumb imgs" id="t1" onmouseover="imgSlider('img1.png'); changeColor('#c9c0d3'); toIndex('../page1.html', '新增資料')"></a></li>
+            <li><a href="page2.html"><img src="thumb2.png" class="thumb imgs" id="t2" onmouseover="imgSlider('img2.png'); changeColor('#b5c4b1'); toIndex('../page2.html', '修改資料')"></a></li>
+            <li><a href="page3.html"><img src="thumb3.png" class="thumb imgs" id="t3" onmouseover="imgSlider('img3.png'); changeColor('#e0cdcf'); toIndex('../page3.html', '刪除資料')"></a></li>
+            <li><a href="page4.html"><img src="thumb4.png" class="thumb imgs" id="t4" onmouseover="imgSlider('img4.png'); changeColor('#c1cbd7'); toIndex('../page4.html', '查詢資料')"></a></li>
+            
+        </ul>
+
+
+    </section>
+    <script src="app_index.js"></script>
+</body>
+</html>

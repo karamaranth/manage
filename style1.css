@@ -1,0 +1,150 @@
+@font-face {
+  font-family: jfopen;
+  src: url(jf-openhuninn-1.1.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: jfopen;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  position: relative;
+  max-width: 180px;
+}
+header ul {
+  position: relative;
+  display: flex;
+  background-color: #c5b8a5;
+  padding: 40px 40px 40px 5px;
+  border-radius: 10px;
+}
+header ul li {
+  list-style: none;
+}
+header ul li a {
+  display: inline-block;
+  color: #333;
+  font-weight: 400;
+  margin-left: 40px;
+  text-decoration: none;
+}
+#parti {
+  font-size: 30px;
+  margin: 30px 0;
+}
+.content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content .textBox {
+  position: relative;
+  max-width: 600px;
+}
+.content .textBox h2 {
+  color: #333;
+  font-size: 4em;
+  line-height: 1.4em;
+  font-weight: 500;
+}
+.content .textBox h2 span {
+  color: #c5b8a5;
+  font-size: 1 em;
+  font-weight: 900;
+}
+.content .textBox p {
+  color: #333;
+}
+.content .textBox a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 16px 40px;
+  background: #c5b8a5;
+  color: #fff;
+  border-radius: 40px;
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.content .imgBox {
+  width: 600px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+  margin-top: 50px;
+}
+.content .imgBox img {
+  max-width: 340px;
+}
+.thumb {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+#t1 {
+  left: 12.5%;
+}
+#t2 {
+  left: 37.5%;
+  bottom: 40px;
+}
+#t3 {
+  left: 62.5%;
+  bottom: 40px;
+}
+#t4 {
+  left: 87.5%;
+}
+
+.thumb li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 50px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.thumb li:hover {
+  transform: translateY(-15px);
+}
+.thumb li img {
+  max-width: 60px;
+}
+.circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #c5b8a5;
+  clip-path: circle(600px at right 800px);
+}

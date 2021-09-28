@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./web/bm.jpeg">
+    <link rel="stylesheet" href="/fontawesome/css/all.css">
+    <link rel="stylesheet" href="/fontawesome/css/all.min.css">
+    <script src="/fontawesome/js/all.js"></script>
+    <script src="/fontawesome/attribution.js"></script>
+    <title>新增會員資料</title>
+</head>
+
+<body>
+    <h1>
+        <a href="index.html">會員資料管理系統</a>
+    </h1>
+    <nav>
+        <ul id="nav_ul">
+            <li class="nav_li active"><a class="nav_a active" href="page1.html">新增資料</a></li>
+            <li class="nav_li"><a class="nav_a" href="page2.html">修改資料</a></li>
+            <li class="nav_li"><a class="nav_a" href="page3.html">刪除資料</a></li>
+            <li class="nav_li"><a class="nav_a" href="page4.html">查詢資料</a></li>
+            <li class="nav_li"><a class="nav_a" href="#">Page 5</a></li>
+        </ul>
+    </nav>
+
+    <center>
+        <h2 id="h2_mode">新增會員資料</h2>
+        <hr><br>
+        會員 ID：<input type="text" id="id" placeholder="判斷 ID 是否使用過"><br> <br>
+        姓名：<input type="text" id="name"> <br> <br>
+        電話：<input type="text" id="tel"><br> <br>
+        性別：<input type="text" id="gender"><br> <br>
+        照片：<input type="text" id="photo"><br><br>
+        <br><hr><br>
+        <!-- 身分證字號：<input type="text">
+        通訊地址：<input type="text">
+        <br><br><hr><br> -->
+        <button id="submit_btn" class="normal_btn"> sure </button>
+        <button id="change_mode" class="long_btn">改為「修改資料」</button>
+    </center>
+
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-auth-compat.js"></script>
+    <script src="main.js"></script>
+    <script src="app_p1.js"></script>
+</body>
+
+</html>

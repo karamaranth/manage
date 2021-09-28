@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="./web/bm.jpeg">
+    <link rel="stylesheet" href="style.css">
+    <title>修改會員資料</title>
+</head>
+
+<body>
+    <h1>
+        <a href="index.html">會員資料管理系統</a>
+    </h1>
+    <nav>
+        <ul id="nav_ul">
+            <li class="nav_li"><a class="nav_a" href="page1.html">新增資料</a></li>
+            <li class="nav_li"><a class="nav_a" href="page2.html">修改資料</a></li>
+            <li class="nav_li active"><a class="nav_a active" href="page3.html">刪除資料</a></li>
+            <li class="nav_li"><a class="nav_a" href="page4.html">查詢資料</a></li>
+            <li class="nav_li"><a class="nav_a" href="#">Page 5</a></li>
+        </ul>
+    </nav>
+    <center>
+        <h2 id="h2_mode">刪除會員資料</h2>
+        <hr><br>
+        會員 ID：<input type="text" id="id">
+        <button id="search_btn" class="normal_btn">查詢</button>
+        <br><br><hr>
+
+        <span class="inline_disabled" style="color: cadetblue;">確認 會員存在 v / </span> 
+
+        <span class="inline_disabled" style="color: brown;">該會員不存在 x</span>
+        <br><br><br>
+        <button id="delete_btn"  class="normal_btn block_disabled" >刪除該會員</button>
+        <br class="block_disabled"><br class="block_disabled">
+        <hr class="block_disabled">
+        
+    </center>
+
+
+
+
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-auth-compat.js"></script>
+    <script src="main.js"></script>
+    <script src="app_p3.js"></script>
+</body>
+
+</html>

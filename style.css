@@ -1,0 +1,140 @@
+@font-face {
+  font-family: jf-open;
+  src: url("jf-openhuninn-1.1.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: jf-open;
+  line-height: 40px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+h1 a {
+  padding: 36px;
+}
+h1 a:hover {
+  color: rgb(126, 126, 126);
+  transition: all 0.5s ease;
+}
+h1 {
+  padding: 36px;
+  padding-left: 0;
+  background-color: bisque;
+  font-size: 40px;
+}
+.out {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.homepage_block {
+  border: 1px solid black;
+  width: 250px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  margin-top: 60px;
+}
+
+.out_container {
+  display: flex;
+  justify-content: space-evenly;
+}
+h2 {
+  padding: 20px;
+}
+.aForFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#nav_ul {
+  display: flex;
+  list-style-type: none;
+  background-color: burlywood;
+  align-items: center;
+  height: 60px;
+}
+
+.nav_a {
+  padding: 22px 40px;
+}
+.nav_a:hover {
+  background-color: rgb(169, 143, 110);
+  transition: all 0.5s ease;
+}
+
+.active {
+  background-color: rgb(169, 143, 110);
+}
+
+#p1_form {
+  padding: 100px;
+}
+
+.normal_btn {
+  width: 100px;
+  font-size: 16px;
+}
+.long_btn {
+  width: 200px;
+  font-size: 16px;
+}
+
+.selection {
+  height: 30px;
+  font-size: 16px;
+  width: 320px;
+  display: none;
+}
+.inline_disabled {
+  display: none;
+}
+.block_disabled {
+  display: none;
+}
+input[type="text"] {
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.test_btn {
+  margin: 30px;
+  width: 130px;
+  height: 60px;
+  background-color: crimson;
+  color: black;
+  font-size: 26px;
+}
+.test_btn:hover {
+  background-color: brown;
+  color: aliceblue;
+  transition: all 0.5s ease;
+}
+
+table {
+  table-layout: fixed;
+  border: 1px solid black;
+  text-align: center;
+  width: 60%;
+  border-collapse: collapse;
+}
+tr,
+th,
+td {
+  border: 1px solid black;
+}
+
+#cam_container {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
